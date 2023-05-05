@@ -27,6 +27,6 @@ jobs:
       - name: build docker image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: rainy/test-ci-cd
+          name: 15869687508/test-ci-cd
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
