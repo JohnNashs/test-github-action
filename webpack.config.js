@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: './index.js',
   plugins: [
     new HtmlWebpackPlugin({
       title: '测试CI/CD'
