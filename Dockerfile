@@ -19,10 +19,10 @@ COPY package*.json /usr/src/app/
 RUN rm -rf node_modules
 
 ## 安装pnpm
-RUN npm i -g cnpm --registry=https://registry.npm.taobao.org
+## RUN npm i -g cnpm --registry=https://registry.npm.taobao.org
 
 ## Install dependencies.
-RUN cnpm install
+RUN npm install
 
 ## Env
 ENV NODE_ENV=production
