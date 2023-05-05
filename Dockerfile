@@ -13,7 +13,7 @@ WORKDIR /usr/src/app
 ## A wildcard is used to ensure both package.json AND package-lock.json are copied.
 ## Copying this separately prevents re-running npm install on every code change.
 # 复制 package.json 和 package-lock.json 文件
-COPY package*.json /usr/src/app/
+COPY package*.json index.html webpack.config.js src/index.js /usr/src/app/
 
 ## 删除依赖
 RUN rm -rf node_modules
