@@ -8,6 +8,9 @@ module.exports = {
       title: '测试CI/CD'
     })
   ],
+  devServer: {
+    static: './dist',
+  },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
