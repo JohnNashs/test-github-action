@@ -28,6 +28,8 @@ RUN npm install
 ENV NODE_ENV=production
 ENV HOST 0.0.0.0
 
+RUN ls -a
+
 ## 打包
 RUN npm run build
 
