@@ -47,7 +47,7 @@ COPY . /usr/src/app/
 # RUN apk update && apk add bash tzdata \ && cp -r -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 ## 将3000端口暴露出来
-EXPOSE 3000
+EXPOSE 3001
 
 ## 2、Run the web service on container startup.
 ## 启动服务
